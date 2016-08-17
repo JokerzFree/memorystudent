@@ -18,7 +18,7 @@ $( document ).on( "pagecreate", "#page", function() {
         var href = $(this).attr('href').replace('#','');
         if (href != ''){
             if (info[href]==null){
-                $.get('res/pages/'+href+'.txt', function(data) {
+                $.get('pages/'+href+'.txt', function(data) {
                   $("#main").html(data);
                   info[href] = data;
                 }, 'text');
