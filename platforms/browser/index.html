@@ -16,7 +16,7 @@
 	<body>		
 	<div class="app">
 		<div data-url="page" data-role="page" id="page">
-		    <div data-role="header" data-theme="a">
+		    <div data-role="header" data-position="fixed" data-theme="a">
 		        <h1>Памятка первокурснику</h1>
 		        <a href="#left-panel" data-icon="carat-r" data-iconpos="notext" data-shadow="false" xdata-iconshadow="false" class="ui-nodisc-icon">ICON</a>
 		    </div>
@@ -24,6 +24,10 @@
 		    <div role="main" id="main" class="ui-content">
 			</div>
 		    <!-- /content -->
+		    <div data-role="footer" data-position="fixed" data-theme="a">
+		    	<h1>ГРГУ им. Янки Купалы. 2016</h1>
+		    </div>
+		    <!-- /footer -->
 		    <div data-role="panel" id="left-panel" data-theme="a">
 		        <ul data-role="listview">
 		            <li data-icon="delete"><a href="#" data-rel="close">Закрыть</a></li>
@@ -68,6 +72,16 @@
 		            </li><!-- /collapsible -->
 		            <li><a href="#internet">Интернет-ресурсы</a></li>
 		        </ul>
+		    </div>
+		    <!-- /panel -->
+		    <div data-role="panel" data-position="right" id="right-panel" data-theme="a">
+		        <ul data-role="listview">
+		            <li data-icon="delete"><a href="#" data-rel="close">Закрыть</a></li>
+		            <li data-role="list-divider">Мы в социальных сетях:</li>
+					<li><a href="http://vk.com">Вконтакте</a></li>
+					<li><a href="http://twitter.com">Твиттер</a></li>
+					<li><a href="http://facebook.com">Фейсбук</a></li>
+				</ul>
 		    </div>
 		    <!-- /panel -->
 		</div>

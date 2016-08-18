@@ -6,18 +6,17 @@ $( document ).on( "pagecreate", "#page", function() {
       info['main'] = data;
     }, 'text');
 
-    $( document ).on( "swiperight", "#page", function( e ) {
+    $( document ).on( "swiperight swipeleft", "#page", function( e ) {
         if ( $( ".ui-page-active" ).jqmData( "panel" ) !== "open" ) {
             if ( e.type === "swiperight" ) {
                 $( "#left-panel" ).panel( "open" );
+            } else if (e.type === 'swipeleft') {
+                $( "#right-panel" ).panel( "open" )
             }
         } else if ($( ".ui-page-active" ).jqmData( "panel" ) == "open"){
 			$( "#left-panel" ).panel( "close" );
+            $( "#right-panel" ).panel( "close" );
     	}
-    });
-
-    $(document).on("swipeleft", "#page", function( e ){
-        $("[data-role=panel]").panel("close");
     });
 
     $(document).delegate('#left-panel ul li > a', 'tap', function () {
@@ -32,17 +31,12 @@ $( document ).on( "pagecreate", "#page", function() {
                 $("#main").html(info[href]);
             }
             //
-            switch (href){
-                case 'administracia','raspisanie':
-                $("#table").table("refresh");
-                break;
-            }
-            //
+            $('html, body').stop().animate({ scrollTop : 0 }, 500);
             $("[data-role=panel]").panel("close");
         }
     });
 
-    $(document).on('tap', 'a[href^=http], a[href^=https]', function(e){
+    $(document).on('tap', 'a[href^="http://"], a[href^="https://"]', function(e){
 
         e.preventDefault();
         var $this = $(this); 
