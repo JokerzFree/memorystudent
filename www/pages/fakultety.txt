@@ -1,104 +1,91 @@
 <center><b>Факультеты</b></center>
-<div class="ui-grid-a" style="text-align:center;">
-<div class="ui-block-a"><pre>
+<div style="text-align:center;"><pre>
 <b>ФАКУЛЬТЕТ МАТЕМАТИКИ И ИНФОРМАТИКИ</b>
 Адрес: г. Гродно, ул. Ожешко, 22
 Телефон: (+375152) 73-03-05
 <a target="_blank" href="http://mf.grsu.by" onclick="window.open(this.href,'_system'); return false;">mf.grsu.by</a>
 </pre></div>
-<div class="ui-block-b"><pre>
+<div style="text-align:center;"><pre>
 <b>ФАКУЛЬТЕТ БИОЛОГИИ И ЭКОЛОГИИ</b>
 Адрес: г. Гродно, пер.Доватора, 3/1
 Телефон: (+375152) 48-51-11
 <a target="_blank" href="http://fbe.grsu.by" onclick="window.open(this.href,'_system'); return false;">fbe.grsu.by</a>
 </pre></div>
-</div>
-<div class="ui-grid-a" style="text-align:center;">
-<div class="ui-block-a"><pre>
+<div style="text-align:center;"><pre>
 <b>ЮРИДИЧЕСКИЙ ФАКУЛЬТЕТ</b>
 Адрес: г. Гродно, пер.Доватора, 3/1
 Телефон: (+375152) 43-62-17
 <a target="_blank" href="http://lf.grsu.by" onclick="window.open(this.href,'_system'); return false;">lf.grsu.by</a>
 </pre></div>
-<div class="ui-block-b"><pre>
+<div style="text-align:center;"><pre>
 <b>ФАКУЛЬТЕТ ПСИХОЛОГИИ</b>
 Адрес: г. Гродно, БАК, 21
 Телефон: (+375152) 43- 45- 21
 <a target="_blank" href="http://psf.grsu.by" onclick="window.open(this.href,'_system'); return false;">psf.grsu.by</a>
 </pre></div>
-</div>
-<div class="ui-grid-a" style="text-align:center;">
-<div class="ui-block-a"><pre>
+<div style="text-align:center;"><pre>
 <b>ФАКУЛЬТЕТ ИСКУССТВ И ДИЗАЙНА</b>
 Адрес: г. Гродно, ул. Дзержинского, 28
 Телефон: (+375152) 74-07-33
 <a target="_blank" href="http://art.grsu.by" onclick="window.open(this.href,'_system'); return false;">art.grsu.by</a>
 </pre></div>
-<div class="ui-block-b"><pre>
+<div style="text-align:center;"><pre>
 <b>ФИЛОЛОГИЧЕСКИЙ ФАКУЛЬТЕТ</b>
 Адрес: г. Гродно, ул. Ленина, 32
 Телефон: (+375152) 77-03-39
 <a target="_blank" href="http://phf.grsu.by" onclick="window.open(this.href,'_system'); return false;">phf.grsu.by</a>
 </pre></div>
-</div>
-<div class="ui-grid-a" style="text-align:center;">
-<div class="ui-block-a"><pre>
+<div style="text-align:center;"><pre>
 <b>ПЕДАГОГИЧЕСКИЙ ФАКУЛЬТЕТ</b>
 Адрес: г. Гродно, ул. Захарова, 32
 Телефон: (+375152) 75-64-69
 <a target="_blank" href="http://fp.grsu.by" onclick="window.open(this.href,'_system'); return false;">fp.grsu.by</a>
 </pre></div>
-<div class="ui-block-b"><pre>
+<div style="text-align:center;"><pre>
 <b>ФАКУЛЬТЕТ ФИЗИЧЕСКОЙ КУЛЬТУРЫ</b>
 Адрес: г. Гродно, ул. Захарова, 32
 Телефон: (+375152) 75-42-49
 <a target="_blank" href="http://ffc.grsu.by" onclick="window.open(this.href,'_system'); return false;">ffc.grsu.by</a>
 </pre></div> 
 </div>
-<div class="ui-grid-a" style="text-align:center;">
-<div class="ui-block-a"><pre>
+<div style="text-align:center;"><pre>
 <b>ФАКУЛЬТЕТ ЭКОНОМИКИ И УПРАВЛЕНИЯ</b>
 Адрес: г. Гродно, ул. Гаспадарчая,23
 Телефон: (+375152) 48-17-29
 <a target="_blank" href="http://fem.grsu.by" onclick="window.open(this.href,'_system'); return false;">fem.grsu.by</a>
 </pre></div>
-<div class="ui-block-b"><pre>
+<div style="text-align:center;"><pre>
 <b>ИНЖЕНЕРНО-СТРОИТЕЛЬНЫЙ ФАКУЛЬТЕТ</b>
 Адрес: г. Гродно, ул. Курчатова, 1а
 Телефон: (+375152) 41-04-70
 <a target="_blank" href="http://fbf.grsu.by" onclick="window.open(this.href,'_system'); return false;">fbf.grsu.by</a>
 </pre></div>
-</div>
-<div class="ui-grid-a" style="text-align:center;">
-<div class="ui-block-a"><pre>
+<div style="text-align:center;"><pre>
 <b>ФИЗИКО-ТЕХНИЧЕСКИЙ ФАКУЛЬТЕТ</b>
 Адрес: г. Гродно, ул. Врублевского, 33
 Телефон: (+375152) 48-68-81
 <a target="_blank" href="http://ftf.grsu.by" onclick="window.open(this.href,'_system'); return false;">ftf.grsu.by</a>
 </pre></div>
-<div class="ui-block-b"><pre>
+<div style="text-align:center;"><pre>
 <b>ФАКУЛЬТЕТ ИСТОРИИ,
 КОММУНИКАЦИИ И ТУРИЗМА</b>
 Адрес: г. Гродно, ул. Октябрьская, 5
 Телефон: (+375152) 77-07-94
 <a target="_blank" href="http://fh.grsu.by" onclick="window.open(this.href,'_system'); return false;">fh.grsu.by</a>
 </pre></div>
-</div>
-<div class="ui-grid-a" style="text-align:center;">
-<div class="ui-block-a"><pre>
+<div style="text-align:center;"><pre>
 <b>ВОЕННЫЙ ФАКУЛЬТЕТ</b>
 Адрес: г. Гродно, ул. Фолюш, 15/219
 Телефон: (+375152) 53-16-69
 <a target="_blank" href="http://mil.grsu.by" onclick="window.open(this.href,'_system'); return false;">mil.grsu.by</a>
 </pre></div>
-<div class="ui-block-b"><pre>
+<div style="text-align:center;"><pre>
 <b>ФАКУЛЬТЕТ ИННОВАЦИОННЫХ
 ТЕХНОЛОГИЙ МАШИНОСТРОЕНИЯ</b>
 Адрес: г. Гродно, ул. Курчатова, 1а
 Телефон: (+375152) 48-44-12
 <a target="_blank" href="http://fit.grsu.by" onclick="window.open(this.href,'_system'); return false;">fit.grsu.by</a>
 </pre></div>
-</div>
 <div style="text-align:center;"><pre>
 <b>ФАКУЛЬТЕТ ДОВУЗОВСКОЙ ПОДГОТОВКИ</b>
 Адрес: г. Гродно, ул. Октябрьская, 5
