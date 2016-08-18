@@ -7,7 +7,7 @@
 	    <meta name="msapplication-tap-highlight" content="no" />
 	    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
 	    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
-		<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.css">
 		<link rel="stylesheet" href="css/style.css">
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.mobile-1.4.5.min.js"></script>
@@ -16,8 +16,8 @@
 	<body>		
 	<div class="app">
 		<div data-url="page" data-role="page" id="page">
-		    <div data-role="header" data-position="fixed" data-theme="a">
-		        <h1>Памятка первокурснику</h1>
+		    <div data-role="header" data-position="fixed" data-theme="a" id="header">
+		        <h1>Памятка</h1>
 		        <a href="#left-panel" data-icon="carat-r" data-iconpos="notext" data-shadow="false" xdata-iconshadow="false" class="ui-nodisc-icon">ICON</a>
 		    </div>
 		    <!-- /header -->
@@ -25,7 +25,7 @@
 			</div>
 		    <!-- /content -->
 		    <div data-role="footer" data-position="fixed" data-theme="a">
-		    	<h1>ГРГУ им. Янки Купалы. 2016</h1>
+		    	<h1>ГрГУ им. Янки Купалы. 2016</h1>
 		    </div>
 		    <!-- /footer -->
 		    <div data-role="panel" id="left-panel" data-theme="a">
@@ -33,7 +33,7 @@
 		            <li data-icon="delete"><a href="#" data-rel="close">Закрыть</a></li>
 		            <li data-role="list-divider">Меню</li>
 		            <li><a href="#main">Главная</a></li>
-		            <li data-role="collapsible" data-inset="false" data-iconpos="right">
+		            <li data-role="collapsible" data-inset="false" data-iconpos="right" class="heading">
 		              <h3>Общая информация</h3>
 		              <ul data-role="listview">
 		                <li><a href="#klyatva_pervokursnika">Клятва первокурсника</a></li>
@@ -72,16 +72,6 @@
 		            </li><!-- /collapsible -->
 		            <li><a href="#internet">Интернет-ресурсы</a></li>
 		        </ul>
-		    </div>
-		    <!-- /panel -->
-		    <div data-role="panel" data-position="right" id="right-panel" data-theme="a">
-		        <ul data-role="listview">
-		            <li data-icon="delete"><a href="#" data-rel="close">Закрыть</a></li>
-		            <li data-role="list-divider">Мы в социальных сетях:</li>
-					<li><a href="http://vk.com">Вконтакте</a></li>
-					<li><a href="http://twitter.com">Твиттер</a></li>
-					<li><a href="http://facebook.com">Фейсбук</a></li>
-				</ul>
 		    </div>
 		    <!-- /panel -->
 		</div>

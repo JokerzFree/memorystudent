@@ -1,6 +1,6 @@
 <center><b>Администрация</b></center>
 <p>
-<table data-role="table" id="table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Колонки для отображения.." data-column-popup-theme="a">
+<table data-role="table" id="tableAdmin" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Колонки для отображения.." data-column-popup-theme="a">
     <thead>
       <tr class="ui-bar-d">
         <th>ФИО</th>

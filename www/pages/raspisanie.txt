@@ -1,6 +1,6 @@
 <center><b>Расписание занятий</b>
 <p>Посещение всех занятий – как лекций, так и семинаров – обязательно. Не опаздывайте на пары. Иногда, пропустив первые слова преподавателя, можно полностью потерять логику и нить повествования, а значит, не разобраться в материале. Быть пунктуальным и прилежным студентом  вам поможет расписание занятий:</p>
-<table data-role="table" id="table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Колонки для отображения.." data-column-popup-theme="a">
+<table data-role="table" id="tableRasp" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Колонки для отображения.." data-column-popup-theme="a" style="text-align: center;">
     <thead>
     	<tr>
     		<th data-priority="1">Смена</th>

@@ -2,20 +2,17 @@ $( document ).on( "pagecreate", "#page", function() {
     var info = [];
 
     $.get('pages/main.txt', function(data) {
-      $("#main").html(data);
+      $("#main").html(data).trigger('create');;
       info['main'] = data;
     }, 'text');
 
-    $( document ).on( "swiperight swipeleft", "#page", function( e ) {
+    $( document ).on( "swiperight", "#page", function( e ) {
         if ( $( ".ui-page-active" ).jqmData( "panel" ) !== "open" ) {
             if ( e.type === "swiperight" ) {
                 $( "#left-panel" ).panel( "open" );
-            } else if (e.type === 'swipeleft') {
-                $( "#right-panel" ).panel( "open" )
             }
         } else if ($( ".ui-page-active" ).jqmData( "panel" ) == "open"){
 			$( "#left-panel" ).panel( "close" );
-            $( "#right-panel" ).panel( "close" );
     	}
     });
 
@@ -24,15 +21,21 @@ $( document ).on( "pagecreate", "#page", function() {
         if (href != ''){
             if (info[href]==null){
                 $.get('pages/'+href+'.txt', function(data) {
-                  $("#main").html(data);
+                  $("#main").html(data).trigger('create');
                   info[href] = data;
                 }, 'text');
             } else {
-                $("#main").html(info[href]);
+                $("#main").html(info[href]).trigger('create');;
             }
-            //
             $('html, body').stop().animate({ scrollTop : 0 }, 500);
             $("[data-role=panel]").panel("close");
+        }
+    });
+
+    $(".ui-collapsible-heading-toggle").on('click', function(){
+        var item = $(this);
+        if (!item.hasClass('ui-icon-minus')){
+            $("li.ui-collapsible").not(item).collapsible( "collapse" );
         }
     });
 

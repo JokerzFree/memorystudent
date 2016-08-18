@@ -2,7 +2,7 @@ $( document ).on( "pagecreate", "#page", function() {
     var info = [];
 
     $.get('pages/main.txt', function(data) {
-      $("#main").html(data);
+      $("#main").html(data).trigger('create');;
       info['main'] = data;
     }, 'text');
 
@@ -11,11 +11,9 @@ $( document ).on( "pagecreate", "#page", function() {
             if ( e.type === "swiperight" ) {
                 $( "#left-panel" ).panel( "open" );
             }
-        }
-    });
-
-    $(document).on("swipeleft", "#page", function( e ){
-        $("[data-role=panel]").panel("close");
+        } else if ($( ".ui-page-active" ).jqmData( "panel" ) == "open"){
+			$( "#left-panel" ).panel( "close" );
+    	}
     });
 
     $(document).delegate('#left-panel ul li > a', 'tap', function () {
@@ -23,13 +21,30 @@ $( document ).on( "pagecreate", "#page", function() {
         if (href != ''){
             if (info[href]==null){
                 $.get('pages/'+href+'.txt', function(data) {
-                  $("#main").html(data);
+                  $("#main").html(data).trigger('create');
                   info[href] = data;
                 }, 'text');
             } else {
-                $("#main").html(info[href]);
+                $("#main").html(info[href]).trigger('create');;
             }
+            $('html, body').stop().animate({ scrollTop : 0 }, 500);
             $("[data-role=panel]").panel("close");
         }
+    });
+
+    $(".ui-collapsible-heading-toggle").on('click', function(){
+        var item = $(this);
+        if (!item.hasClass('ui-icon-minus')){
+            $("li.ui-collapsible").not(item).collapsible( "collapse" );
+        }
+    });
+
+    $(document).on('tap', 'a[href^="http://"], a[href^="https://"]', function(e){
+
+        e.preventDefault();
+        var $this = $(this); 
+        var target = $this.data('inAppBrowser') || '_system';
+
+        window.open($this.attr('href'), target, 'location=no');
     });
 });
