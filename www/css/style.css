@@ -1,3 +1,6 @@
+image {
+    width: 100%;
+}
 #page :not(INPUT):not(TEXTAREA) {
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -47,7 +50,7 @@
 }
 /* Nested list button colors */
 .ui-listview .ui-listview .ui-btn {
-    background: #666 !important;
+    background: #DADDDA !important;
 }
 .ui-listview .ui-listview .ui-btn:hover {
     background: #f5f5f5 !important;

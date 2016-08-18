@@ -14,7 +14,11 @@ $( document ).on( "pagecreate", "#page", function() {
         }
     });
 
-    $(document).delegate('#left-panel ul li > a', 'click', function () {
+    $(document).on("swipeleft", "#page", function( e ){
+        $("[data-role=panel]").panel("close");
+    });
+
+    $(document).delegate('#left-panel ul li > a', 'tap', function () {
         var href = $(this).attr('href').replace('#','');
         if (href != ''){
             if (info[href]==null){

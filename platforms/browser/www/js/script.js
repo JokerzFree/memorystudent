@@ -1,8 +1,9 @@
 $( document ).on( "pagecreate", "#page", function() {
     var info = [];
 
-    $.get('res/pages/main.txt', function(data) {
+    $.get('pages/main.txt', function(data) {
       $("#main").html(data);
+      info['main'] = data;
     }, 'text');
 
     $( document ).on( "swiperight", "#page", function( e ) {
@@ -13,11 +14,15 @@ $( document ).on( "pagecreate", "#page", function() {
         }
     });
 
-    $(document).delegate('#left-panel ul li > a', 'click', function () {
+    $(document).on("swipeleft", "#page", function( e ){
+        $("[data-role=panel]").panel("close");
+    });
+
+    $(document).delegate('#left-panel ul li > a', 'tap', function () {
         var href = $(this).attr('href').replace('#','');
         if (href != ''){
             if (info[href]==null){
-                $.get('res/pages/'+href+'.txt', function(data) {
+                $.get('pages/'+href+'.txt', function(data) {
                   $("#main").html(data);
                   info[href] = data;
                 }, 'text');
