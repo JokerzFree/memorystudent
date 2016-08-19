@@ -40,9 +40,7 @@ $( document ).on( "pagecreate", "#page", function() {
     });
 
     $(document).on('tap', 'a[href^="http://"], a[href^="https://"]', function(e){
-        e.preventDefault();
         var $this = $(this); 
-
-        window.open($this.attr('href'), '_system');
+        window.open($this.attr('href'), '_blank', 'location=yes');
     });
 });

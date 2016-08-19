@@ -40,11 +40,7 @@ $( document ).on( "pagecreate", "#page", function() {
     });
 
     $(document).on('tap', 'a[href^="http://"], a[href^="https://"]', function(e){
-
-        e.preventDefault();
         var $this = $(this); 
-        var target = $this.data('inAppBrowser') || '_system';
-
-        window.open($this.attr('href'), target, 'location=no');
+        window.open($this.attr('href'), '_blank', 'location=yes');
     });
 });
