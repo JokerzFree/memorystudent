@@ -1,4 +1,4 @@
-<center><b>Администрация</b></center>
+<b style="text-align: center;">Администрация</b>
 <p>
 <table data-role="table" id="tableAdmin" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Колонки для отображения.." data-column-popup-theme="a">
     <thead>
