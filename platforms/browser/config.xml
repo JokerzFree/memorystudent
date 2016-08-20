@@ -19,6 +19,8 @@
     <icon src="icon.png" />
     <plugin name="cordova-plugin-inappbrowser"/>
     <access origin="*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
