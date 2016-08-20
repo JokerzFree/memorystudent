@@ -6,7 +6,7 @@
     user-select: none;
 }
 /* Adjust the width of the left reveal menu. */
-/*#page #left-panel.ui-panel {
+#page #left-panel.ui-panel {
     width: 15em;
 }
 #page #left-panel.ui-panel-closed {
@@ -33,7 +33,7 @@
     overflow-x:hidden;
     overflow-y:auto;
     -webkit-overflow-scrolling: touch;
-}*/
+}
 /* Listview with collapsible list items. */
 .ui-listview > li .ui-collapsible-heading {
   margin: 0;
@@ -69,9 +69,8 @@
 /* Setting a custom background image. */
 #page .ui-page-theme-a,
 #page .ui-panel-wrapper {
-    background-image: url("../_assets/img/bg-pattern.png");
-    background-repeat: repeat-x;
-    background-position: left bottom;
+    background-image: url("../img/grid.png");
+    background-repeat: repeat;
 }
 /* Styling of the page contents */
 .article p {

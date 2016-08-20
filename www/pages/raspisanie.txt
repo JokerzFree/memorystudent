@@ -1,6 +1,6 @@
-<center><b>Расписание занятий</b>
+<div style="text-align:center;"><b>Расписание занятий</b>
 <p>Посещение всех занятий – как лекций, так и семинаров – обязательно. Не опаздывайте на пары. Иногда, пропустив первые слова преподавателя, можно полностью потерять логику и нить повествования, а значит, не разобраться в материале. Быть пунктуальным и прилежным студентом  вам поможет расписание занятий:</p>
-<table data-role="table" id="tableRasp" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Колонки для отображения.." data-column-popup-theme="a" style="text-align: center;">
+<table data-role="table" id="tableRasp" data-mode="columntoggle" data-mode="reflow" class="ui-body-a table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Колонки для отображения.." data-column-popup-theme="a">
     <thead>
     	<tr>
     		<th data-priority="1">Смена</th>
@@ -13,7 +13,7 @@
     </thead>
     <tbody>
     	<tr>
-    		<td rowspan="3">Первая</td>
+    		<td>Первая</td>
     		<td>1</td>
     		<td>1</td>
     		<td>08:30</td>
@@ -21,6 +21,7 @@
     		<td>15</td>
     	</tr>
     	<tr>
+            <td></td>
     		<td>2</td>
     		<td>2</td>
     		<td>10:05</td>
@@ -28,6 +29,7 @@
     		<td>15</td>
     	</tr>
       	<tr>
+            <td></td>
     		<td>3</td>
     		<td>3</td>
     		<td>11:40</td>
@@ -35,7 +37,7 @@
     		<td>30</td>
     	</tr>
      	<tr>
-    		<td rowspan="3">Вторая</td>
+    		<td>Вторая</td>
     		<td>4</td>
     		<td>1</td>
     		<td>13:30</td>
@@ -43,6 +45,7 @@
     		<td>15</td>
     	</tr>
       	<tr>
+            <td></td>
     		<td>5</td>
     		<td>2</td>
     		<td>15:05</td>
@@ -50,6 +53,7 @@
     		<td>15</td>
     	</tr>
       	<tr>
+            <td></td>
     		<td>6</td>
     		<td>3</td>
     		<td>16:40</td>
@@ -57,7 +61,7 @@
     		<td>15</td>
     	</tr>
       	<tr>
-    		<td rowspan="3">Третья</td>
+    		<td>Третья</td>
     		<td>7</td>
     		<td>1</td>
     		<td>18:15</td>
@@ -65,6 +69,7 @@
     		<td>15</td>
     	</tr>
       	<tr>
+            <td></td>
     		<td>8</td>
     		<td>2</td>
     		<td>19:50</td>
@@ -73,4 +78,4 @@
     	</tr>
     </tbody>
 </table>
-</center>
+</div>

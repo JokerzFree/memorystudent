@@ -1,4 +1,4 @@
-﻿<center>
+﻿<div style="text-align:center;">
 <b>Гродненский Государственный Университет им. Янки Купалы</b>
 <p><div style="width: 100%">
 	<a href="#image" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/main.jpg" style="width: 60%" /></a>
@@ -8,5 +8,5 @@
 </div></p>
 <b>Добро пожаловать</b> - первокурсник!</br>
 Здесь вы найдете самую важную информацию о нашем университете!
-<a href="#left-panel" class="ui-btn ui-shadow">Получить знания</a>
-</center>
+<a href="#left-panel" class="ui-btn ui-shadow">Показать меню</a>
+</div>

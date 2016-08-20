@@ -1,4 +1,4 @@
-<center><b>К кому обращаться, если:</b></center>
+<b style="text-align:center;">К кому обращаться, если:</b>
 <p>
 <b>Возникли сложности в общении, появились</br>
 проблемы во взаимоотношениях, нужна</br>
@@ -16,8 +16,8 @@ e-mail: uvr@grsu.by
 <b>Есть необходимость снять жильё, нужна материальная помощь</br>
 Профком студентов</b></br>
 ул. Ожешко, 22, каб. 229, тел.: 731950</br>
-сайт: <a target="_blank" href="http://www.prkom.grsu.by" onclick="window.open(this.href,'_system'); return false;">www.prkom.grsu.by</a></br>
-группа вконтакте: <a target="_blank" href="http://vk.com/profkom_studentov" onclick="window.open(this.href,'_system'); return false;">vk.com/profkom_studentov</a>
+сайт: <a href="http://www.prkom.grsu.by">www.prkom.grsu.by</a></br>
+группа вконтакте: <a href="http://vk.com/profkom_studentov">vk.com/profkom_studentov</a>
 </p><p>
 <b>Вас привлекает общественная деятельность, есть</br>
 интересные проекты и инициативы, нравится заниматься творчеством</br>
@@ -29,13 +29,13 @@ e-mail: uvr@grsu.by
 <b>Наши общественные организации:</b></br>
 <i>Белорусский республиканский союз молодёжи</i></br>
 ул. Ожешко, 22, каб. 229, тел.: 731950</br>
-сайт: <a target="_blank" href="http://www.brsm.grsu.by" onclick="window.open(this.href,'_system'); return false;">www.brsm.grsu.by</a></br>
-группа вконтакте: <a target="_blank" href="http://vk.com/brsm_grsu" onclick="window.open(this.href,'_system'); return false;">vk.com/brsm_grsu</a></br>
+сайт: <a href="http://www.brsm.grsu.by">www.brsm.grsu.by</a></br>
+группа вконтакте: <a href="http://vk.com/brsm_grsu">vk.com/brsm_grsu</a></br>
 <i>Первичная студенческая организация «Белая Русь»</i></br>
 ул. Ожешко, 22, каб. 224, тел.: 731986</br>
 <i>Профком студентов</i></br>
 ул. Ожешко, 22, каб. 229, тел.: 731950</br>
-сайт: <a target="_blank" href="http://www.prkom.grsu.by" onclick="window.open(this.href,'_system'); return false;">www.prkom.grsu.by</a></br>
+сайт: <a href="http://www.prkom.grsu.by">www.prkom.grsu.by</a></br>
 <i>Координационный студенческий совет</i></br>
 ул. Ожешко, 22, каб. 224, тел.: 731986</br>
 e-mail: uvr@grsu.by</br>
