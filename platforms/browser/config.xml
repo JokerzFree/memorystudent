@@ -7,7 +7,7 @@
         <param name="browser-package" value="Device" />
     </feature>
 	<feature name="InAppBrowser">
-	  <param name="android-package" value="org.apache.cordova.InAppBrowser" />
+	  <param name="android-package" value="org.apache.cordova.inappbrowser" />
 	</feature>
 	<feature name="InAppBrowser">
 	    <param name="ios-package" value="CDVInAppBrowser" />
