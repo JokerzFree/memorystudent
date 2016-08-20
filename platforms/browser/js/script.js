@@ -48,5 +48,6 @@ $( document ).on( "pagecreate", "#page", function() {
         e.preventDefault();
         $this = $(this);
         window.open($this.attr('href'), '_system');
+        navigator.app.loadUrl($this.attr('href'), {openExternal : true});
     });
 });
