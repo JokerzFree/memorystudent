@@ -42,7 +42,6 @@ $( document ).on( "pagecreate", "#page", function() {
     $(document).on('tap', 'a[href^="http://"], a[href^="https://"]', function(e){
         e.preventDefault();
         $this = $(this);
-        cordova.InAppBrowser.open($this.attr('href'), '_blank', 'location=yes');
-        //window.open($this.attr('href'), '_blank', 'location=yes');
+        window.open($this.attr('href'), '_system');
     });
 });
