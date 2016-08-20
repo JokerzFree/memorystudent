@@ -1,4 +1,4 @@
-<b style="text-align: center;">Администрация</b>
+<div style="text-align:center;"><b>Администрация</b>
 <p>
 <table data-role="table" id="tableAdmin" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Колонки для отображения.." data-column-popup-theme="a">
     <thead>
@@ -53,4 +53,4 @@
             <td>Среда: 17:00 – 19:00.</br>Пятница: 15:00 –17:00</td>
         </tr>
     </tbody>
-</table></p>
+</table></p></div>

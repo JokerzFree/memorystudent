@@ -6,7 +6,7 @@
     user-select: none;
 }
 /* Adjust the width of the left reveal menu. */
-#page #left-panel.ui-panel {
+/*#page #left-panel.ui-panel {
     width: 15em;
 }
 #page #left-panel.ui-panel-closed {
@@ -30,7 +30,7 @@
     left: 0;
     right: 0;
     bottom: 0px;
-    overflow-x:hidden;
+    overflow-x:block;
     overflow-y:auto;
     -webkit-overflow-scrolling: touch;
 }

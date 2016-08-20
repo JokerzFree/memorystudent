@@ -1,11 +1,6 @@
 $( document ).on( "pagecreate", "#page", function() {
     var info = [];
 
-    document.addEventListener("deviceready", onDeviceReady, false);
-    function onDeviceReady() {
-        window.open = cordova.InAppBrowser.open;
-    }
-
     $.get('pages/main.txt', function(data) {
       $("#main").html(data).trigger('create');;
       info['main'] = data;
@@ -45,8 +40,8 @@ $( document ).on( "pagecreate", "#page", function() {
     });
 
     $(document).on('tap', 'a[href^="http://"], a[href^="https://"]', function(e){
+        e.preventDefault();
         $this = $(this);
-        window.open($this.attr('href'), '_system', 'location=yes');
-        return false;
+        window.open($this.attr('href'), '_blank', 'location=yes');
     });
 });
