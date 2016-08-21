@@ -6,20 +6,18 @@
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
-    <name>Памятка первокурснику</name>
+    <name>Student Booklet</name>
     <description>Приложение с краткой информацией для первокурсников</description>
     <author email="urbanovichwork@gmail.com" href="http://vk.com/jokerzfree">Urbanovich Andrew</author>
     <content src="www/index.html" />
     <icon src="icon.png" />
-    <plugin name="cordova-plugin-inappbrowser" spec="1.4.0" />
-    <access origin="*" browserOnly="true"/>
+    <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <preference name="stay-in-webview" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
 </widget>

@@ -42,6 +42,12 @@ $( document ).on( "pagecreate", "#page", function() {
     $(document).on('tap', 'a[href^="http://"], a[href^="https://"]', function(e){
         e.preventDefault();
         $this = $(this);
-        cordova.InAppBrowser.open('http://www.myurl.nl','_system');,
+        $('#header h1').html('opeen!!');
+        if(typeof cordova != 'undefined'){
+            $('#header h1').html('opeeasn!!');
+            cordova.InAppBrowser.open($this.attr('href'), '_system');
+        } else {
+            window.open($this.attr('href'), '_system');
+        }
     });
 });
