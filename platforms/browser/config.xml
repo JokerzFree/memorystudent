@@ -7,7 +7,7 @@
         <param name="browser-package" value="Device" />
     </feature>
 	<feature name="InAppBrowser">
-	  <param name="android-package" value="org.apache.cordova.inappbrowser" />
+	  <param name="android-package" value="org.apache.cordova.InAppBrowser" />
 	</feature>
 	<feature name="InAppBrowser">
 	    <param name="ios-package" value="CDVInAppBrowser" />
@@ -17,8 +17,9 @@
     <author email="urbanovichwork@gmail.com" href="http://vk.com/jokerzfree">Urbanovich Andrew</author>
     <content src="www/index.html" />
     <icon src="icon.png" />
-    <access origin="http://127.0.0.1*"/>
-    <access origin="http://phonegap.com" subdomains="true" />
+    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+    <access origin="*" browserOnly="true"/>
+    <access origin="*">
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -28,4 +29,5 @@
     <preference name="stay-in-webview" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 </widget>

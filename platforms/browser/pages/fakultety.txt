@@ -3,7 +3,7 @@
 <p><b>ФАКУЛЬТЕТ МАТЕМАТИКИ И ИНФОРМАТИКИ</b></br>
 Адрес: г. Гродно, ул. Ожешко, 22</br>
 Телефон: (+375152) 73-03-05</br>
-<a href="http://mf.grsu.by" onclick="window.open('http://phonegap.com', '_system'); return false;">mf.grsu.by</a>
+<a href="http://mf.grsu.by" onclick="window.open('http://www.kidzout.com', '_system');">mf.grsu.by</a>
 </p>
 <p>
 <b>ФАКУЛЬТЕТ БИОЛОГИИ И ЭКОЛОГИИ</b></br>
