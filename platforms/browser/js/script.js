@@ -39,13 +39,6 @@ $( document ).on( "pagecreate", "#page", function() {
         }
     });
 
-    document.addEventListener("deviceready", onDeviceReady, false);
-    function onDeviceReady() {
-        $('#header h1').html('LOADED22222222!!!');
-        window.open = cordova.InAppBrowser.open;
-        window.open('http://google.by', '_system');
-    }
-
     $(document).on('tap', 'a[href^="http://"], a[href^="https://"]', function(e){
         e.preventDefault();
         $this = $(this);
