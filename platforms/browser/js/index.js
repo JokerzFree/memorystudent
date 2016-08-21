@@ -34,19 +34,6 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        var exitApp = false, intval = setInterval(function (){exitApp = false;}, 1000);
-        document.addEventListener("backbutton", function (e){
-            e.preventDefault();
-            if (exitApp) {
-                clearInterval(intval) 
-                (navigator.app && navigator.app.exitApp()) || (device && device.exitApp())
-            }
-            else {
-                toast('Нажмите "Назад" еще раз для выхода из приложения');
-                exitApp = true
-                history.back(1);
-            } 
-        }, false);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -60,28 +47,3 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
-
-function toast(message) {
-    var $toast = $('<div class="ui-loader ui-overlay-shadow ui-body-e ui-corner-all"><h3>' + message + '</h3></div>');
-
-    $toast.css({
-        display: 'block', 
-        background: '#fff',
-        opacity: 0.90, 
-        position: 'fixed',
-        padding: '7px',
-        'text-align': 'center',
-        width: 80%,
-        left: 50%,
-        top: 50%
-    });
-
-    var removeToast = function(){
-        $(this).remove();
-    };
-
-    $toast.click(removeToast);
-
-    $toast.appendTo($.mobile.pageContainer).delay(2000);
-    $toast.fadeOut(400, removeToast);
-}
