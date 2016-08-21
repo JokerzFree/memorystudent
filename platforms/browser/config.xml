@@ -17,7 +17,7 @@
     <author email="urbanovichwork@gmail.com" href="http://vk.com/jokerzfree">Urbanovich Andrew</author>
     <content src="www/index.html" />
     <icon src="icon.png" />
-    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+    <plugin name="org.apache.cordova.inappbrowser">
     <access origin="*" browserOnly="true"/>
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
