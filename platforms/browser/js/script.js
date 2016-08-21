@@ -1,12 +1,6 @@
 $( document ).on( "pagecreate", "#page", function() {
     var info = [];
 
-   document.addEventListener("deviceready", onDeviceReady, false);
-
-   function onDeviceReady() {
-     $('#header h1').html('asdq23123!!');
-   }
-
     $.get('pages/main.txt', function(data) {
       $("#main").html(data).trigger('create');;
       info['main'] = data;
@@ -48,12 +42,6 @@ $( document ).on( "pagecreate", "#page", function() {
     $(document).on('tap', 'a[href^="http://"], a[href^="https://"]', function(e){
         e.preventDefault();
         $this = $(this);
-        $('#header h1').html('opeen!!');
-        if(typeof cordova != 'undefined'){
-            $('#header h1').html('opeeasn!!');
-            cordova.InAppBrowser.open($this.attr('href'), '_system');
-        } else {
-            window.open($this.attr('href'), '_system');
-        }
+        window.open($this.attr('href'), '_system');
     });
 });
