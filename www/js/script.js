@@ -42,6 +42,12 @@ $( document ).on( "pagecreate", "#page", function() {
     $(document).on('tap', 'a[href^="http://"], a[href^="https://"]', function(e){
         e.preventDefault();
         $this = $(this);
-        window.open($this.attr('href'), '_blank', 'location=yes');
+        if (typeof navigator !== "undefined" && navigator.app) {
+            // Mobile device.
+            navigator.app.loadUrl($this.attr('href'), {openExternal: true});
+        } else {
+            // Possible web browser
+            window.open($this.attr('href'), "_blank");
+        }
     });
 });
