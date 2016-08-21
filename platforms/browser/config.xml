@@ -6,12 +6,6 @@
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
-	<feature name="InAppBrowser">
-	  <param name="android-package" value="org.apache.cordova.InAppBrowser" />
-	</feature>
-	<feature name="InAppBrowser">
-	    <param name="ios-package" value="CDVInAppBrowser" />
-	</feature>
     <name>Памятка первокурснику</name>
     <description>Приложение с краткой информацией для первокурсников</description>
     <author email="urbanovichwork@gmail.com" href="http://vk.com/jokerzfree">Urbanovich Andrew</author>
