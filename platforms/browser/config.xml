@@ -17,7 +17,7 @@
     <author email="urbanovichwork@gmail.com" href="http://vk.com/jokerzfree">Urbanovich Andrew</author>
     <content src="www/index.html" />
     <icon src="icon.png" />
-    <plugin name="cordova-plugin-inappbrowser" spec="0.6.0" />
+    <plugin name="cordova-plugin-inappbrowser" spec="1.4.0" />
     <access origin="*" browserOnly="true"/>
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -28,5 +28,4 @@
     <preference name="stay-in-webview" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 </widget>
