@@ -14,7 +14,7 @@
     <plugin name="cordova-plugin-inappbrowser" spec="1.4.0" />  
     <access origin="*" />
     <plugin name="cordova-plugin-whitelist" spec="1.2.2" />
-    <gap:plugin name="org.apache.cordova.device" />
+    <plugin name="org.apache.cordova.device" source="pgb" spec="0.3.0" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
