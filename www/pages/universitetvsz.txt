@@ -4,28 +4,28 @@
 <p><div style="width: 100%">
 	<a href="#image1" data-rel="popup" data-position-to="window" data-transition="fade"><img src="pages/images/universitetvsz1.jpg" style="width: 60%" /></a>
 	<div data-role="popup" id="image1" data-overlay-theme="b" data-theme="b" data-corners="false">
-	    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Закрыть</a><img class="popphoto" src="pages/images/universitetvsz1.jpg" />
+	    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Закрыть</a><img style="width:85%;" class="popphoto" src="pages/images/universitetvsz1.jpg" />
 	</div>
 </div></p>
 Главный корпус, Ожешко, 22
 <p><div style="width: 100%">
 	<a href="#image2" data-rel="popup" data-position-to="window" data-transition="fade"><img src="pages/images/universitetvsz2.jpg" style="width: 60%" /></a>
 	<div data-role="popup" id="image2" data-overlay-theme="b" data-theme="b" data-corners="false">
-	    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Закрыть</a><img class="popphoto" src="pages/images/universitetvsz2.jpg" />
+	    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Закрыть</a><img style="width:85%;" class="popphoto" src="pages/images/universitetvsz2.jpg" />
 	</div>
 </div></p>
 Аудитория Марковского
 <p><div style="width: 100%">
 	<a href="#image3" data-rel="popup" data-position-to="window" data-transition="fade"><img src="pages/images/universitetvsz3.jpg" style="width: 60%" /></a>
 	<div data-role="popup" id="image3" data-overlay-theme="b" data-theme="b" data-corners="false">
-	    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Закрыть</a><img class="popphoto" src="pages/images/universitetvsz3.jpg" />
+	    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Закрыть</a><img style="width:85%;" class="popphoto" src="pages/images/universitetvsz3.jpg" />
 	</div>
 </div></p>
 Галерея профессоров
 <p><div style="width: 100%">
 	<a href="#image4" data-rel="popup" data-position-to="window" data-transition="fade"><img src="pages/images/universitetvsz4.jpg" style="width: 60%" /></a>
 	<div data-role="popup" id="image4" data-overlay-theme="b" data-theme="b" data-corners="false">
-	    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Закрыть</a><img class="popphoto" src="pages/images/universitetvsz4.jpg" />
+	    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Закрыть</a><img style="width:85%;" class="popphoto" src="pages/images/universitetvsz4.jpg" />
 	</div>
 </div></p>
 Актовый зал, Ожешко,22<br>
