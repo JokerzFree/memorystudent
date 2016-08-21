@@ -1,6 +1,12 @@
 $( document ).on( "pagecreate", "#page", function() {
     var info = [];
-    
+
+   document.addEventListener("deviceready", onDeviceReady, false);
+
+   function onDeviceReady() {
+     $('#header h1').html('asdq23123!!');
+   }
+
     $.get('pages/main.txt', function(data) {
       $("#main").html(data).trigger('create');;
       info['main'] = data;
