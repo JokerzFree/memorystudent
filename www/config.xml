@@ -19,7 +19,6 @@
     <icon src="icon.png" />
     <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
     <access origin="*" browserOnly="true"/>
-    <access origin="*">
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
