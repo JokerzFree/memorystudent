@@ -23,7 +23,6 @@ $( document ).on( "pagecreate", "#page", function() {
     $.get('pages/main.txt', function(data) {
       $("#main").html(data).trigger('create');;
       info['main'] = data;
-      onDeviceReady();
     }, 'text');
 
     $( document ).on( "swiperight", "#page", function( e ) {
