@@ -1,6 +1,6 @@
 ﻿<div style="text-align:center;">
 <p><div style="width: 100%">
-	<img class="popphoto"  src="pages/images/privet.png" style="width: 60%" />
+	<img class="popphoto"  src="pages/images/privet.png" style="width: 70%" />
 </div></p>
 <p>
 Поздравляю Вас с началом уникального периода в Вашей жизни: временем студенчества! </br>
