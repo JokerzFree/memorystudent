@@ -1,81 +1,8 @@
 <div style="text-align:center;"><b>Расписание занятий</b>
 <p>Посещение всех занятий – как лекций, так и семинаров – обязательно. Не опаздывайте на пары. Иногда, пропустив первые слова преподавателя, можно полностью потерять логику и нить повествования, а значит, не разобраться в материале. Быть пунктуальным и прилежным студентом  вам поможет расписание занятий:</p>
-<table data-role="table" id="tableRasp" data-mode="columntoggle" data-mode="reflow" class="ui-body-a table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Колонки для отображения.." data-column-popup-theme="a">
-    <thead>
-    	<tr>
-    		<th data-priority="1">Смена</th>
-    		<th>Номер пары в целом</th>
-    		<th data-priority="2">Номер пары в смене</th>
-    		<th>Начало</th>
-    		<th>Окончание</th>
-    		<th data-priority="3">Перемена</th>
-    	</tr>
-    </thead>
-    <tbody>
-    	<tr>
-    		<td>Первая</td>
-    		<td>1</td>
-    		<td>1</td>
-    		<td>08:30</td>
-    		<td>09:50</td>
-    		<td>15</td>
-    	</tr>
-    	<tr>
-            <td></td>
-    		<td>2</td>
-    		<td>2</td>
-    		<td>10:05</td>
-    		<td>11:25</td>
-    		<td>15</td>
-    	</tr>
-      	<tr>
-            <td></td>
-    		<td>3</td>
-    		<td>3</td>
-    		<td>11:40</td>
-    		<td>13:00</td>
-    		<td>30</td>
-    	</tr>
-     	<tr>
-    		<td>Вторая</td>
-    		<td>4</td>
-    		<td>1</td>
-    		<td>13:30</td>
-    		<td>14:50</td>
-    		<td>15</td>
-    	</tr>
-      	<tr>
-            <td></td>
-    		<td>5</td>
-    		<td>2</td>
-    		<td>15:05</td>
-    		<td>16:25</td>
-    		<td>15</td>
-    	</tr>
-      	<tr>
-            <td></td>
-    		<td>6</td>
-    		<td>3</td>
-    		<td>16:40</td>
-    		<td>18:00</td>
-    		<td>15</td>
-    	</tr>
-      	<tr>
-    		<td>Третья</td>
-    		<td>7</td>
-    		<td>1</td>
-    		<td>18:15</td>
-    		<td>19:35</td>
-    		<td>15</td>
-    	</tr>
-      	<tr>
-            <td></td>
-    		<td>8</td>
-    		<td>2</td>
-    		<td>19:50</td>
-    		<td>21:10</td>
-    		<td></td>
-    	</tr>
-    </tbody>
-</table>
-</div>
+<p><div style="width: 100%">
+    <a href="#rasp" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/rasp.png" style="width: 60%" /></a>
+    <div data-role="popup" id="rasp" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%">
+        <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:100%;" class="popphoto" src="pages/images/rasp.png" />
+    </div>
+</div></p>

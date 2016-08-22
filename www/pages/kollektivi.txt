@@ -10,5 +10,18 @@
 <p>- Студия "Театралы"</p>
 <p>- Клуб интеллектуальных игр</p>
 <p>- Студия хореографии "Купальский венок"</p>
-
 <p>Подробную информацию вы сможете получить в Отделе культурно-массовой и досуговой деятельности УВРсМ каб.1, ул. Ленина, 32, тел.: 74 03 76</p>
+<div style="text-align:center;">
+<p><div style="width: 100%">
+    <a href="#sociallife1" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/sociallife1.png" style="width: 60%" /></a>
+    <div data-role="popup" id="sociallife1" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%">
+        <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:100%;" class="popphoto" src="pages/images/sociallife1.png" />
+    </div>
+</div></p>
+<p><div style="width: 100%">
+    <a href="#sociallife2" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/sociallife2.png" style="width: 60%" /></a>
+    <div data-role="popup" id="sociallife2" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%">
+        <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:100%;" class="popphoto" src="pages/images/sociallife2.png" />
+    </div>
+</div></p>
+</div>

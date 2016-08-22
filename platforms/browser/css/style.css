@@ -115,3 +115,10 @@
         -webkit-transform: translate3d(0,0,0);
     }
 }
+.r-align{
+    text-align: right;
+}
+.lm-align{
+     text-align: left;
+     padding:3em;
+}
