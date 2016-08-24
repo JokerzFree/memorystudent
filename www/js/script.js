@@ -35,8 +35,9 @@ $( document ).on( "pagecreate", "#page", function() {
     	}
     });
 
-    $(document).delegate('#left-panel ul li > a', 'tap', function () {
+    $(document).delegate('#left-panel ul li > a', 'click', function () {
         var href = $(this).attr('href').replace('#','');
+        console.log(href);
         if (href != ''){
             if (info[href]==null){
                 $.get('pages/'+href+'.txt', function(data) {

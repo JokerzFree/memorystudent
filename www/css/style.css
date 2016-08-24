@@ -23,6 +23,9 @@
     -webkit-transform: translate3d(15em,0,0);
     -moz-transform: translate3d(15em,0,0);
     transform: translate3d(15em,0,0);
+}*/
+#page .ui-panel.ui-panel-open {
+    position:fixed;
 }
 #page .ui-panel-inner {
     position: absolute;
@@ -30,8 +33,7 @@
     left: 0;
     right: 0;
     bottom: 0px;
-    overflow-x:block;
-    overflow-y:auto;
+    overflow: auto;
     -webkit-overflow-scrolling: touch;
 }
 /* Listview with collapsible list items. */

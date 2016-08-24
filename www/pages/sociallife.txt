@@ -1,67 +1,67 @@
 <div style="text-align:center;"><b>Общественная жизнь университета очень разнообразна.</b>
 <p><div style="width: 100%">
     <a href="#c_sent" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/c_sent.png" style="width: 60%" /></a>
-    <div data-role="popup" id="c_sent" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%">
+    <div data-role="popup" id="c_sent" data-overlay-theme="b" data-theme="a" data-corners="true" style="width:100%">
         <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:100%;" class="popphoto" src="pages/images/c_sent.png" />
     </div>
 </div></p>
 <p><div style="width: 100%">
     <a href="#c_okt" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/c_okt.png" style="width: 60%" /></a>
-    <div data-role="popup" id="c_okt" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%">
+    <div data-role="popup" id="c_okt" data-overlay-theme="b" data-theme="a" data-corners="true" style="width:100%">
         <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:100%;" class="popphoto" src="pages/images/c_okt.png" />
     </div>
 </div></p>
 <p><div style="width: 100%">
     <a href="#c_nov" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/c_nov.png" style="width: 60%" /></a>
-    <div data-role="popup" id="c_nov" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%">
+    <div data-role="popup" id="c_nov" data-overlay-theme="b" data-theme="a" data-corners="true" style="width:100%">
         <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:100%;" class="popphoto" src="pages/images/c_nov.png" />
     </div>
 </div></p>
 <p><div style="width: 100%">
     <a href="#c_dek" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/c_dek.png" style="width: 60%" /></a>
-    <div data-role="popup" id="c_dek" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%">
+    <div data-role="popup" id="c_dek" data-overlay-theme="b" data-theme="a" data-corners="true" style="width:100%">
         <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:100%;" class="popphoto" src="pages/images/c_dek.png" />
     </div>
 </div></p>
 <p><div style="width: 100%">
     <a href="#c_yanv" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/c_yanv.png" style="width: 60%" /></a>
-    <div data-role="popup" id="c_yanv" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%">
+    <div data-role="popup" id="c_yanv" data-overlay-theme="b" data-theme="a" data-corners="true" style="width:100%">
         <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:100%;" class="popphoto" src="pages/images/c_yanv.png" />
     </div>
 </div></p>
 <p><div style="width: 100%">
     <a href="#c_fevr" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/c_fevr.png" style="width: 60%" /></a>
-    <div data-role="popup" id="c_fevr" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%">
+    <div data-role="popup" id="c_fevr" data-overlay-theme="b" data-theme="a" data-corners="true" style="width:100%">
         <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:100%;" class="popphoto" src="pages/images/c_fevr.png" />
     </div>
 </div></p>
 <p><div style="width: 100%">
     <a href="#c_april" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/c_april.png" style="width: 60%" /></a>
-    <div data-role="popup" id="c_april" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%">
+    <div data-role="popup" id="c_april" data-overlay-theme="b" data-theme="a" data-corners="true" style="width:100%">
         <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:100%;" class="popphoto" src="pages/images/c_april.png" />
     </div>
 </div></p>
 <p><div style="width: 100%">
     <a href="#c_mart" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/c_mart.png" style="width: 60%" /></a>
-    <div data-role="popup" id="c_mart" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%">
+    <div data-role="popup" id="c_mart" data-overlay-theme="b" data-theme="a" data-corners="true" style="width:100%">
         <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:100%;" class="popphoto" src="pages/images/c_mart.png" />
     </div>
 </div></p>
 <p><div style="width: 100%">
     <a href="#c_may" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/c_may.png" style="width: 60%" /></a>
-    <div data-role="popup" id="c_may" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%">
+    <div data-role="popup" id="c_may" data-overlay-theme="b" data-theme="a" data-corners="true" style="width:100%">
         <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:100%;" class="popphoto" src="pages/images/c_may.png" />
     </div>
 </div></p>
 <p><div style="width: 100%">
     <a href="#c_june" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/c_june.png" style="width: 60%" /></a>
-    <div data-role="popup" id="c_june" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%">
+    <div data-role="popup" id="c_june" data-overlay-theme="b" data-theme="a" data-corners="true" style="width:100%">
         <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:100%;" class="popphoto" src="pages/images/c_june.png" />
     </div>
 </div></p>
 <p><div style="width: 100%">
     <a href="#c_ja" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/c_ja.png" style="width: 60%" /></a>
-    <div data-role="popup" id="c_ja" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%">
+    <div data-role="popup" id="c_ja" data-overlay-theme="b" data-theme="a" data-corners="true" style="width:100%">
         <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:100%;" class="popphoto" src="pages/images/c_ja.png" />
     </div>
 </div></p>

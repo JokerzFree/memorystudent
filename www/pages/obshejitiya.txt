@@ -16,8 +16,8 @@
 • 41 Компьютерный класс
 </p>
 
-<div style="text-align:center;"><a href="#map" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/map.jpg" style="width: 20%" /></a></div>
-<div data-role="popup" id="map" data-overlay-theme="b" data-theme="b" data-corners="false" style="width:100%;text-align:center;">
+<div style="text-align:center;"><a href="#map" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/map.jpg" style="width: 30%" /></a></div>
+<div data-role="popup" id="map" data-overlay-theme="b" data-theme="a" data-corners="true" style="width:100%;text-align:center;">
     <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img style="width:50%;" class="popphoto" src="pages/images/map.jpg" />
 </div>
 
