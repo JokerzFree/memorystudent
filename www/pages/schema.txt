@@ -1,0 +1,11 @@
+<p><div style="width: 100%; text-align:center;">
+    <img class="popphoto"  src="pages/images/l_yellow.png" style="width: 100%" />
+</div></p>
+<div style="text-align:center;"><b>Схема корпусов</b></div>
+<p><div style="width: 100%">
+	<img class="popphoto"  src="pages/images/map.jpg" style="width: 100%" />
+</div></p>
+<div style="text-align:center;"><b>Схема корпусов</b></div>
+<p><div style="width: 100%">
+	<img class="popphoto"  src="pages/images/map2.jpg" style="width: 100%" />
+</div></p>

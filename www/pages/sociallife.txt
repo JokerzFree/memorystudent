@@ -1,4 +1,7 @@
-<div style="text-align:center;"><b>Общественная жизнь университета очень разнообразна.</b>
+<p><div style="width: 100%; text-align:center;">
+    <img class="popphoto"  src="pages/images/l_orange.png" style="width: 100%" />
+</div></p>
+<div style="text-align:center;"><b>Календарь студента на 2016-2017 учебный год</b>
 <p><div style="width: 100%">
     <a href="#c_sent" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"  src="pages/images/c_sent.png" style="width: 60%" /></a>
     <div data-role="popup" id="c_sent" data-overlay-theme="b" data-theme="a" data-corners="true" style="width:100%">

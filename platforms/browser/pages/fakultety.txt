@@ -1,3 +1,6 @@
+<p><div style="width: 100%; text-align:center;">
+	<img class="popphoto"  src="pages/images/l_blue.png" style="width: 100%" />
+</div></p>
 <div style="text-align:center;">
 <b>Факультеты</b>
 <p><b>ФАКУЛЬТЕТ МАТЕМАТИКИ И ИНФОРМАТИКИ</b></br>
@@ -19,7 +22,7 @@
 </p>
 <p>
 <b>ФАКУЛЬТЕТ ПСИХОЛОГИИ</b></br>
-Адрес: г. Гродно, БАК, 21</br>
+Адрес: г. Гродно, БЛК, 21</br>
 Телефон: (+375152) 43- 45- 21</br>
 <a href="http://psf.grsu.by">psf.grsu.by</a>
 </p>
@@ -47,10 +50,9 @@
 Телефон: (+375152) 75-42-49</br>
 <a href="http://ffc.grsu.by">ffc.grsu.by</a>
 </p> 
-
 <p>
 <b>ФАКУЛЬТЕТ ЭКОНОМИКИ И УПРАВЛЕНИЯ</b></br>
-Адрес: г. Гродно, ул. Гаспадарчая,23</br>
+Адрес: г. Гродно, ул. Господарчая,23</br>
 Телефон: (+375152) 48-17-29</br>
 <a href="http://fem.grsu.by">fem.grsu.by</a>
 </p>
